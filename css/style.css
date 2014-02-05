@@ -1,0 +1,557 @@
+/* 
+
+
+    _/                                  _/            
+   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
+  _/        _/    _/  _/    _/  _/    _/  _/    _/    
+ _/        _/    _/  _/    _/  _/    _/  _/    _/     
+_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
+                                             _/       
+                                        _/_/          
+                                                 
+											   V 1.0                                  
+                                  													 
+                                  													 */
+@import "iconfont.css";
+@import "animate.min.css";
+
+/*-----------------------------------------------------------------------------------*/
+/* GENERAL
+/*-----------------------------------------------------------------------------------*/
+
+body{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.lead{
+	font-weight: 300;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-radius: 5px;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.visibility{
+	visibility: hidden;
+}
+
+.animated{
+	visibility: visible!important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	KEY COLOR
+/*-----------------------------------------------------------------------------------*/
+
+/*---- Typography ----*/
+header h1, 
+.payoff h1,
+.details .carousel,
+.social a:hover{
+	color: #0bf397;
+}
+
+.features p{
+	color: #06b872;
+}
+
+/*---- Background ----*/
+.features,
+.detail .carousel-indicators .active {
+	background: #0bf397;	
+}
+	
+
+/*-----------------------------------------------------------------------------------*/
+/* NAVBAR
+/*-----------------------------------------------------------------------------------*/
+
+nav.navbar{
+	position: fixed;
+	top: -72px;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	border-radius: 0px;
+	transition: all 0.2s;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+nav.navbar.fixed-to-top{
+	top: 0px;
+}
+
+.navbar-default{
+	border: none;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	opacity: 0.95;
+	display: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #aaa;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #3A3A3A;	
+	cursor: pointer;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.navbar-default .navbar-brand{
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* HEADER 
+/*-----------------------------------------------------------------------------------*/
+
+header{
+	padding: 150px 0px 0px 0px;
+	height: 960px;
+	background: url('../img/nepal.jpg');
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+header h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-weight: 300;
+	font-size: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+header p.lead{
+	font-size: 36px;
+}
+
+
+header .carousel-iphone{
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	height: 672px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+	
+}
+
+header .carousel {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 95px 0px 0px 4px;
+	width: 282px;
+}
+
+header .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	background: #444444;
+}
+
+header .carousel-indicators {
+	bottom: -63px;
+}
+
+header .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #666666;
+	border-radius: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* PURCHASE
+/*-----------------------------------------------------------------------------------*/
+
+.purchase{
+	overflow: hidden;
+	padding: 100px 0px 100px 0px;
+	min-height: 200px;
+}
+
+.purchase button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+	color: white;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PAYOFF
+/*-----------------------------------------------------------------------------------*/
+
+.payoff{
+	overflow: hidden;
+	padding: 230px 0px 150px 0px;
+	min-height: 600px;
+	background: url('../img/dunes.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.payoff h1{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.8em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	DETAIL
+/*-----------------------------------------------------------------------------------*/
+
+.detail{
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	min-height: 500px;
+}
+
+.detail .title{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.detail .features .row{
+	margin-bottom: 40px;
+}
+
+.detail .carousel h1{
+	font-size: 3.8em;
+}
+.detail .carousel h1, .detail p{
+	text-align: left;
+	font-weight: 300;
+}
+
+.detail p{
+	color: #aaa;
+}
+
+.detail .carousel-control{
+	background: none;
+}
+
+.detail .app-screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 95px;
+	width: 320px;
+	height: 450px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+}
+
+.detail .app-screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 280px;
+}
+
+.detail .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	border-top: 1px solid #eee;
+	background: #ffffff;
+}
+
+.detail .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.detail .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #eeeeee;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FEATURES
+/*-----------------------------------------------------------------------------------*/
+
+.features{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.features p {
+	font-weight: 400;
+}
+
+.features h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.features .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.features span.glyphicon, .features i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL
+/*-----------------------------------------------------------------------------------*/
+
+.social{
+	overflow: hidden;
+	padding: 80px 0px 150px 0px;
+	min-height: 350px;
+	background: url('../img/sea.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.social h2{
+	color: white;
+}
+
+.social a {
+	margin-left: 10px;
+	color: #FFF;
+	font-size: 5em;
+	transition: all 0.3s;
+}
+
+.social a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	GET-IT
+/*-----------------------------------------------------------------------------------*/
+
+.get-it{
+	padding: 100px 0px 160px 0px;
+	text-align: center;
+}
+
+.get-it button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-appstore.png) #373737 no-repeat 0px 5px;
+	color: white;
+}
+
+.get-it hr{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.get-it ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.get-it ul li{
+	display: inline-block;
+	margin-left:30px;
+}
+
+.get-it ul li:first-child{
+	margin-left: 0px;
+}
+
+.get-it ul li a{
+	color: #aaa;
+	font-size: 1.2em;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.get-it ul li a:hover{
+	color: #3A3A3A;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width:768px) {
+	
+	header{
+		padding-bottom: 50px;
+		min-height: 1000px;
+		height: 100%;
+	}
+	
+	.navbar-nav {
+		float: left;
+		text-align: left;
+}
+
+	
+}
+
+@media (max-width:992px) {
+
+.detail .carousel h1, .detail p{
+	text-align: center;
+}
+
+.detail p{
+		margin-bottom: 60px;
+}
+
+header, .social{
+	background-position-y: 0px;
+	background-size: 200%;
+}
+
+.payoff{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-height: 200px;
+}
+
+.payoff h1{
+	font-size: 24px;
+}
+
+.features .col-md-4{
+	margin-bottom: 60px;
+}
+
+}
+
+@media (max-width:480px){
+
+	header .carousel-iphone, .detail .app-screenshot{
+		width: 280px;
+	}
+	
+	header .carousel, .detail .app-screenshot img{
+		padding-top: 85px;
+		width: 245px;
+	}
+	
+	.detail .app-screenshot img{
+		margin-top: -12px;
+		padding-top: 0px;
+	}
+	
+	header{
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
+	
+	header h1{
+		font-size: 70px;
+	}
+	
+	.purchase{
+		padding-top: 50px;
+	}
+	
+	.features col-md-4{
+		margin-bottom: 50px;
+	}
+	
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .purchasebutton.app-store, .get-it button.app-store{
+        background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
+        background-size: 98%;
+    	color: white;
+    }
+}
