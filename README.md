@@ -107,4 +107,6 @@ For example, for the facebook icon, you would do this:
 ```
 <div class="icon-facebook"></div>
 ```
+##Licensing
 
+Code released under the <a href="https://github.com/paolotripodi/Landy-v1.0/blob/master/LICENSE.md" alt="MIT Lincense">MIT</a>
