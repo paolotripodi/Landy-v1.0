@@ -111,3 +111,7 @@ For example, for the facebook icon, you would do this:
 
 Code and documentation © Paolo Tripodi, 2014. 
 Code released under <a href="https://github.com/paolotripodi/Landy-v1.0/blob/master/LICENSE.md" alt="MIT Lincense">MIT</a>
+
+<hr/>
+
+Checkout Lady on <a href="http://drbl.in/kbfC" alt="Dribbble - Landy">Dribbble</a> and <a href="http://bit.ly/1nU1DLF" alt="Dribbble - Landy">Behance.</a>
