@@ -27,7 +27,7 @@ This documentation will guide you through the basic functions of the template. A
 The template has one HTML page where all the content for the site is housed:
 
 ```
-index.hmtl
+index.html
 ```
 The template is built upon the Bootstrap 3 framework (getbootstrap.com) and you have access to all the features of it. This means that you can use the 12 column grid like so:
 
