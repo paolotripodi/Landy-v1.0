@@ -97,7 +97,7 @@ header h1,
 
 nav.navbar{
 	position: fixed;
-	top: -72px;
+	top: -100%;
 	margin-bottom: 0px;
 	padding: 10px 0px 10px 0px;
 	width: 100%;
