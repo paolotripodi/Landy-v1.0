@@ -1,3 +1,6 @@
+**Update**
+Check out http://page.cat
+
 #Landy
 
 **A flexible one-page fully responsive HTML template for your app**
