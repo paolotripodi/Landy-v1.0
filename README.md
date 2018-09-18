@@ -1,5 +1,6 @@
 **Update**
 Check out http://page.cat
+Gitter https://gitter.im/pagecat/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
 #Landy
 
